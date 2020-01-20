@@ -19,7 +19,7 @@ class Visualizer():
                 self.data["Y"].append(float(line.split("\t")[1]))
     
     def visualize(self):
-        plt.axis([450, 600, -1000, 5000])
+        plt.axis([min(self.data["X"]), max(self.data["X"]), min(self.data["Y"]), max(self.data["Y"])])
         plt.scatter(self.data["X"], self.data["Y"], s=1)
         plt.show()
 
