@@ -19,8 +19,8 @@ class Visualizer():
                 self.data["Y"].append(float(line.split("\t")[1]))
     
     def visualize(self):
-        plt.plot(self.data["X"], self.data["Y"], 'ro')
         plt.axis([450, 600, -1000, 5000])
+        plt.scatter(self.data["X"], self.data["Y"], s=1)
         plt.show()
 
 if __name__ == "__main__":
