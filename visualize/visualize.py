@@ -24,6 +24,9 @@ class Visualizer():
         plt.show()
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("python visualize.py <path_to_data_file>")
+        sys.exit(-1)
     input = sys.argv[1]
     visualizer = Visualizer(input)
     visualizer.show()
