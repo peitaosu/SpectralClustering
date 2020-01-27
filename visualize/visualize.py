@@ -8,6 +8,9 @@ class Visualizer():
             self.get_data_from_file(input)
     
     def get_data_from_file(self, input):
+        if not os.path.isfile(input):
+            print(input + " is not exists.")
+            sys.exit(-1)
         self.input = input
         with open(input) as in_file:
             self.data = {
