@@ -4,6 +4,11 @@
 
 visualize.py is a tool used to visualize two dimensional arrays.
 
+## data
+
+Xdata\tYdata\n
+Xdata\tYdata\n
+
 ## usage
 
 ```
