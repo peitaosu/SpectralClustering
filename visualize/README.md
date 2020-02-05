@@ -13,4 +13,9 @@ Xdata\tYdata\n
 
 ```
 python visualize.py <path_to_data_file>
+
+# python
+
+visualizer = Visualizer(file_path)
+visualizer.show()
 ```
