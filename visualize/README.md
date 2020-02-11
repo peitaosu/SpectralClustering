@@ -6,8 +6,7 @@ visualize.py is a tool used to visualize two dimensional arrays.
 
 ## data
 
-Xdata\tYdata\n
-Xdata\tYdata\n
+Update `preprocess.py` to parse your data to two dimensional arrays.
 
 ## usage
 
